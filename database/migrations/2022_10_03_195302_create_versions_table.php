@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('versions', function (Blueprint $table) {
             $table->id();
+            $table->text('tag')->nullable(false);
+            $table->integer('package_id')->nullable(false);
+            $table->integer('user_id')->nullable(false);
+            $table->string('version')->nullable(false);
             $table->timestamps();
         });
     }
