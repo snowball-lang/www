@@ -12,7 +12,7 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('documentation')" :active="request()->routeIs('documentation')">
+                    <x-nav-link href="/docs">
                         {{ __('Documentation') }}
                     </x-nav-link>
                 </div>
@@ -77,7 +77,7 @@
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         @auth
             <div class="pt-2 pb-3 space-y-1">
-                <x-responsive-nav-link :href="route('documentation')" :active="request()->routeIs('documentation')">
+                <x-responsive-nav-link href="/docs">
                     {{ __('Documentation') }}
                 </x-responsive-nav-link>
                 <x-responsive-nav-link :href="route('pkgs')" :active="request()->routeIs('pkgs')">

@@ -6,6 +6,9 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "abbyjanke/laracolor": "dev-master",
+        "binarytorch/larecipe": "^2.5",
+        "binarytorch/larecipe-feedback": "^1.0",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
