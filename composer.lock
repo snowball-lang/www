@@ -3132,12 +3132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/snowball-lang/larecipe-snowball-theme.git",
-                "reference": "0eac504a4ea7ebda0910824b3837fe42a6053e76"
+                "reference": "33092c78199747ee0c846f684245de188da65628"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/snowball-lang/larecipe-snowball-theme/zipball/0eac504a4ea7ebda0910824b3837fe42a6053e76",
-                "reference": "0eac504a4ea7ebda0910824b3837fe42a6053e76",
+                "url": "https://api.github.com/repos/snowball-lang/larecipe-snowball-theme/zipball/33092c78199747ee0c846f684245de188da65628",
+                "reference": "33092c78199747ee0c846f684245de188da65628",
                 "shasum": ""
             },
             "require": {
@@ -3169,7 +3169,7 @@
             "support": {
                 "source": "https://github.com/snowball-lang/larecipe-snowball-theme/tree/master"
             },
-            "time": "2022-10-05T15:13:28+00:00"
+            "time": "2022-10-05T15:22:03+00:00"
         },
         {
             "name": "symfony/console",
