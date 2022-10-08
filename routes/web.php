@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
-Route::get('/docs', function () {
-    return view('welcome');
-})->name('documentation');
+// Route::get('/docs', function () {
+//     return view('welcome');
+// })->name('docs');
 
 Route::get('/pkgs', function () {
     return view('packages');
