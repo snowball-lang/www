@@ -11,6 +11,12 @@ class Package extends Model
     use HasFactory;
     use HasUuids;
 
+    protected $fillable = [
+        'name',
+        'description',
+        'user_id'
+    ];
+
     public function User()
     {
         return $this->belongsTo(User::class);
