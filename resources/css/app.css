@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        --flame: #e4572eff;
+        --space-cadet: #29335cff;
+        --marigold: #f3a712ff;
+        --olivine: #a8c686ff;
+        --air-superiority-blue: #669bbcff;
+    }
+}

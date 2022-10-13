@@ -17,28 +17,28 @@ import System
 
 class Vector {
 
-    priv Number x;
-    priv Number y;
+    priv x: Number;
+    priv y: Number;
 
-    pub fn __init(x: Number, y: Number) {
+    pub construtor(x: Number, y: Number) {
         self.x, self.y = x, y;        
     }
     
     // JS equivalent: const __sum = (this, vec2) => new Vector(...)
     // overrides operator +
-    pub fn __sum(vec2: Vector) -> Vector = 
+    pub operator +(vec2: Vector) Vector =
         new Vector(self.x + vec2.x, self.y + vec2.y)
     
-    pub fn __str() -> String {
+    pub operator str() String {
         return "Vector(x=${self.x} y=${self.y})"
     } 
 }
 
-fn main(args: Array<String>) -> Number {
+fn main() i32 {
     let vec1 = new Vector(1,2)
     let vec2 = new Vector(10,22)
     
-    System.print(vec1 + vec2)
+    System.print((vec1 + vec2) as f32)
     return 0
 }
 ```

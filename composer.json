@@ -9,6 +9,7 @@
         "binarytorch/larecipe": "^2.5",
         "binarytorch/larecipe-feedback": "^1.0",
         "guzzlehttp/guzzle": "^7.2",
+        "khatabwedaa/blade-css-icons": "^1.1",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
