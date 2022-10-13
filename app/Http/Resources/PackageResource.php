@@ -18,6 +18,7 @@ class PackageResource extends JsonResource
             'name' => $this->name,
             'description' => $this->description,
             'user' => $this->User->name,
+            'versions' => VersionResource::collection($this->Version),
             'created' => $this->created_at
         ];
     }

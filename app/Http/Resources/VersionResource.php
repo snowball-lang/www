@@ -14,6 +14,10 @@ class VersionResource extends JsonResource
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+        return [
+            'tag' => $this->tag,
+            'user' => $this->User->name,
+            'version' => $this->version
+        ];
     }
 }
