@@ -5,7 +5,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3">
                 <div class="p-3 py-6 w-96">
                     <div class="flex items-center">
-                        <x-css-search class="opacity-50 w-5 h-5 ml-2" />
+                        <x-fas-fire-flame-curved class="opacity-50 w-5 h-5 ml-2" />
                         <div class="ml-4 text-lg leading-7 font-semibold">Popular packages</div>
                     </div>
 
@@ -33,7 +33,7 @@
 
                 <div class="p-3 py-6 w-96">
                     <div class="flex items-center">
-                        <x-css-search class="opacity-50 w-5 h-5 ml-2" />
+                        <x-ik-stats-alt class="opacity-60 w-6 h-6 ml-2" />
                         <div class="ml-4 text-lg leading-7 font-semibold">Statistics</div>
                     </div>
 
