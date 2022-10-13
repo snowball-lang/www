@@ -9,4 +9,4 @@ Route::get('/package/{uuid}', function ($uuid) {
 
 Route::get('/packages', function () {
     return new \App\Http\Resources\PackageCollection(\App\Models\Package::all()->where('user_id', \Illuminate\Support\Facades\Auth::id()));
-});
+})->middleware(['auth:sanctum']);
