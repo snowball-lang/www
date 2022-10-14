@@ -9,7 +9,7 @@
                         <div class="ml-4 text-lg leading-7 font-semibold">Popular packages</div>
                     </div>
 
-                    <div class="w-full h-[0.2rem] my-2 rounded" style="background: var(--flame)"></div>
+                    <div class="w-full h-[0.2rem] my-2 rounded" style="background: var(--bright-navy-blue"></div>
                     <div class="ml-12">
                         <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                             {{-- TODO: list of popular packages --}}
@@ -23,7 +23,7 @@
                         <div class="ml-4 text-lg leading-7 font-semibold">Discover packages</div>
                     </div>
 
-                    <div class="w-full h-[0.2rem] my-2 rounded" style="background: var(--marigold)"></div>
+                    <div class="w-full h-[0.2rem] my-2 rounded" style="background: var(--blue-jeans-2)"></div>
                     <div class="ml-12">
                         <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
 
@@ -37,7 +37,7 @@
                         <div class="ml-4 text-lg leading-7 font-semibold">Statistics</div>
                     </div>
 
-                    <div class="w-full h-[0.2rem] my-2 rounded" style="background: var(--olivine)"></div>
+                    <div class="w-full h-[0.2rem] my-2 rounded-lg" style="background: var(--light-sky-blue)"></div>
                     <div class="ml-12">
                         <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                             {{-- {{$packages->count()}} --}}

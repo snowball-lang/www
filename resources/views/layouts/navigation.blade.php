@@ -1,4 +1,4 @@
-<div class="h-2 w-full block" style="background: linear-gradient(126deg, var(--flame) 0%, var(--marigold) 75%);"></div>
+<div class="h-2 w-full block" style="background: var(--uranian-blue);"></div>
 <nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

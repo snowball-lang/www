@@ -1,4 +1,5 @@
-<nav x-data="{ open: false }" class="fixed top-0 left-0 w-full z-10 bg-white border-b border-gray-100">
+<nav x-data="{ open: false }" class="fixed top-0 left-0 w-full z-20 bg-white border-b border-gray-100">
+    <div class="h-2 w-full block" style="background: var(--uranian-blue);"></div>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <!-- Primary Navigation Menu -->
@@ -14,7 +15,7 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link href="/docs" :docs="true" :active="true">
+                    <x-nav-link href="/docs" :active="true">
                         {{ __('Documentation') }}
                     </x-nav-link>
                 </div>

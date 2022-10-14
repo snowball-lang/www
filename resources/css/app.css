@@ -4,10 +4,15 @@
 
 @layer base {
     :root {
-        --flame: #e4572eff;
-        --space-cadet: #29335cff;
-        --marigold: #f3a712ff;
-        --olivine: #a8c686ff;
-        --air-superiority-blue: #669bbcff;
+        --alice-blue: #e3f2fdff;
+        --uranian-blue: #bbdefbff;
+        --light-sky-blue: #90caf9ff;
+        --blue-jeans: #64b5f6ff;
+        --blue-jeans-2: #42a5f5ff;
+        --dodger-blue: #2196f3ff;
+        --bleu-de-france: #1e88e5ff;
+        --bright-navy-blue: #1976d2ff;
+        --green-blue: #1565c0ff;
+        --cobalt-blue: #0d47a1ff;
     }
 }
