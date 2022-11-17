@@ -17,16 +17,16 @@ import System
 
 class Vector {
 
-    priv x: Number;
-    priv y: Number;
+    priv x: i32;
+    priv y: i32;
 
-    pub construtor(x: Number, y: Number) {
+    pub construtor(x: Int, y: Int) {
         self.x, self.y = x, y;        
     }
     
     // JS equivalent: const __sum = (this, vec2) => new Vector(...)
     // overrides operator +
-    pub operator +(vec2: Vector) Vector =
+    pub operator +(vec2: Vector) Vector =>
         new Vector(self.x + vec2.x, self.y + vec2.y)
     
     pub operator str() String {
