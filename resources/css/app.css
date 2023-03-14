@@ -15,4 +15,34 @@
         --green-blue: #1565c0ff;
         --cobalt-blue: #0d47a1ff;
     }
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        display: inline-flex;
+        color: #41424b;
+        position: relative;
+        padding: 0 1.5rem;
+        z-index: 1;
+        font-weight: 900;
+        margin-bottom: 1rem;
+        font-family: "Inter", sans-serif;
+    }
+
+    p {
+        font-size: 1.1rem;
+        color: #515258;
+        font-weight: 500;
+        line-height: 0.5;
+    }
+
+    .home-example {
+        background: #fafafb;
+        color: #22232a;
+        border-radius: 0.75rem;
+        padding: 2rem;
+
+        display: flex;
+        width: calc(50% - 0.75rem);
+    }
 }

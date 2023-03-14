@@ -8,18 +8,23 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&amp;family=Inter:wght@400;600;700;900&amp;family=Palanquin+Dark:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <style>
+            body {
+                font-family: "Inter", sans-serif;
+            }
+        </style>
     </head>
-    <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
-            @include('layouts.navigation')
-
+    <body class="antialiased">
+        <div class="min-h-screen bg-white">
             <!-- Page Heading -->
             @if (isset($header))
-                <header class="bg-white shadow">
+                <header class="shadow">
                     <div class="max-w-7xl mx-auto py-4 h-20 px-4 sm:px-6 lg:px-8">
                         {{ $header }}
                     </div>
