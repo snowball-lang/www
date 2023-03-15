@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code&amp;family=Inter:wght@400;600;700;900&amp;family=Palanquin+Dark:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/lang-highlight.css', 'resources/css/app.css', 'resources/js/app.js'])
         <style>
             body {
                 font-family: "Inter", sans-serif;

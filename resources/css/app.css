@@ -22,10 +22,8 @@
         display: inline-flex;
         color: #41424b;
         position: relative;
-        padding: 0 1.5rem;
         z-index: 1;
         font-weight: 900;
-        margin-bottom: 1rem;
         font-family: "Inter", sans-serif;
     }
 
@@ -33,7 +31,6 @@
         font-size: 1.1rem;
         color: #515258;
         font-weight: 500;
-        line-height: 0.5;
     }
 
     .home-example {
@@ -42,7 +39,24 @@
         border-radius: 0.75rem;
         padding: 2rem;
 
-        display: flex;
         width: calc(50% - 0.75rem);
+    }
+
+    .home-example h1 {
+        font-size: 1.7rem;
+    }
+
+    .home-example p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .home-example pre {
+        font-size: .9rem;
+        font-weight: 500;
+    }
+
+    .home-example a {
+        @apply text-blue-500;
     }
 }
