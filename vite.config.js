@@ -8,6 +8,7 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/css/lang-highlight.css',
                 'resources/js/app.js',
+                'resources/js/fullpage.min.js'
             ],
             refresh: true,
         }),
