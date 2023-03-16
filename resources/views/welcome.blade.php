@@ -30,8 +30,8 @@
                                     <section class="mt-16 w-full">
                                         <div class="flex w-full justify-between">
                                             <div class="home-example">
-                                                <h1>✌ Hello, world</h1>
-                                                <p class="pt-2">The classic Hello World program in Snowball is as simple as a call to System::println.</p>
+                                                <h1 class="text-left w-full">✌ Hello, world</h1>
+                                                <p class="pt-2 text-left">The classic Hello World program in Snowball is as simple as a call to System::println.</p>
                                                 <pre class="p-3 text-left w-full bg-white border mt-4 border-gray-400 rounded snowball-lang">
 <span class="k">use</span> Core::System;
 
@@ -40,8 +40,8 @@
 }</pre>
                                             </div>
                                             <div class="home-example">
-                                                <h1 class="text-center">Object oriented</h1>
-                                                <p class="pt-2">An example of a class declaration and how you can publicly declare members or functions.</p>
+                                                <h1 class="text-elft w-full">Object oriented</h1>
+                                                <p class="pt-2 text-left">An example of a class declaration and how you can publicly declare members or functions.</p>
                                                 <pre class="p-3 text-left w-full bg-white border mt-4 border-gray-400 rounded snowball-lang">
 <span class="k">class</span> <span class="ty">Dog</span>: <span class="ty">Animal</span> {
     <span class="k">let mut</span> sound: <span class="k">String</span> = <span class="s">""</span>;
@@ -53,8 +53,8 @@
                                         <div class="mt-5">
                                             <div class="home-example w-full flex">
                                                 <div class="relative">
-                                                    <h1 class="text-center">Fibonacci sequence</h1>
-                                                    <p class="pt-2">Here's an example on how to do the fibonacci sequence in snowball. It's as fast as any other low-level programming language such as c++ or rust.</p>
+                                                    <h1 class="text-left w-full">Fibonacci sequence</h1>
+                                                    <p class="pt-2 text-left">Here's an example on how to do the fibonacci sequence in snowball. It's as fast as any other low-level programming language such as c++ or rust.</p>
                                                     <p class="pt-2 absolute bottom-0 left-0">Checkout the benchmarks <span><a href="#">here</a></span>.</p>
                                                 </div>
                                                 <pre class="p-3 text-left w-full bg-white border mt-4 border-gray-400 rounded snowball-lang min-w-[400px] ml-10">
