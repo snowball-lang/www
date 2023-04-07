@@ -1,5 +1,4 @@
 <nav x-data="{ open: false }" class="fixed top-0 left-0 w-full z-20 bg-white border-b border-gray-100">
-    <div class="h-2 w-full block" style="background: var(--uranian-blue);"></div>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <!-- Primary Navigation Menu -->
