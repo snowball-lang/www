@@ -5,7 +5,7 @@
 - ## Language manual
     - [Variables and mutability](/{{route}}/{{version}}/variables)
     - [Loops](/{{route}}/{{version}}/loops)
-    - [Constrol flow](/{{route}}/{{version}}/control-flow)
+    - [Control flow](/{{route}}/{{version}}/control-flow)
     - [Operators](/{{route}}/{{version}}/operators)
     - [Functions](/{{route}}/{{version}}/functions)
         - [Generic functions](/{{route}}/{{version}}/generic-functions)

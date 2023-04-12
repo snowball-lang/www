@@ -2,46 +2,13 @@
 
 ---
 
-First of all, what is snowball?
+👋 Greetings! Allow me to introduce you to Snowball, a dynamically-typed, low-weight, object-oriented programming language complete with a garbage collector and module system.
 
-* Snowball is a low-weight, statically typed, object oriented programming language with garbage collector and module system.
+🚀 With a myriad of features to offer, Snowball boasts object-oriented programming, memory safety, built-in functions for enhanced productivity, and faster execution than other languages. Plus, its garbage collector and unit testing make it a comprehensive tool for developers.
 
-What are some of it's advantages?
+🔍 So why not dive in and explore Snowball's capabilities? For more information, check out the [installation guide](#installation). Happy coding!
 
-* TODO
-
-Here is a little demonstration to show you how snowball feels like
-
-```rust
-import System
-
-class Vector {
-
-    priv x: i32;
-    priv y: i32;
-
-    pub construtor(x: Int, y: Int) {
-        self.x, self.y = x, y;        
-    }
-    
-    // JS equivalent: const __sum = (this, vec2) => new Vector(...)
-    // overrides operator +
-    pub operator +(vec2: Vector) Vector =>
-        new Vector(self.x + vec2.x, self.y + vec2.y)
-    
-    pub operator str() String {
-        return "Vector(x=${self.x} y=${self.y})"
-    } 
-}
-
-fn main() i32 {
-    let vec1 = new Vector(1,2)
-    let vec2 = new Vector(10,22)
-    
-    System.print((vec1 + vec2) as f32)
-    return 0
-}
-```
+* [Discord](https://discord.gg/YPgym7cwYr)
 
 ### Guides: Jump right in
 
