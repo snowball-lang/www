@@ -20,6 +20,16 @@ while [condition] {
 }
 ```
 
+### do while Loop
+
+This is exactly the same as a `while loop` except it executes the instructions `before` it checks the condition.
+
+```rust
+do {
+    [code block]
+} while [condition];
+```
+
 ### for Loop
 
 The `for` loop is used to iterate with an initialization, a condition, and an expression repeated after each iteration.

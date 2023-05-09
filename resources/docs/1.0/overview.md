@@ -8,7 +8,7 @@
 
 🔍 So why not dive in and explore Snowball's capabilities? For more information, check out the [installation guide](#installation). Happy coding!
 
-* [Discord](https://discord.gg/YPgym7cwYr)
+* [Discord](https://discord.com/invite/nnShMQzR4b)
 
 ### Guides: Jump right in
 
