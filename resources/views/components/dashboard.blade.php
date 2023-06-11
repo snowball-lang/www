@@ -1,7 +1,7 @@
-<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+<div class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center py-4 sm:pt-0">
     <div class="max-w-9xl mx-auto sm:px-6 lg:px-8">
 
-        <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
+        <div class="mt-8 bg-white overflow-hidden shadow-sm sm:rounded-lg">
             <div class="grid grid-cols-1 md:grid-cols-3">
                 <div class="p-3 py-6 w-96">
                     <div class="flex items-center">
@@ -11,7 +11,7 @@
 
                     <div class="w-full h-[0.2rem] my-2 rounded" style="background: var(--bright-navy-blue"></div>
                     <div class="ml-12">
-                        <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                        <div class="mt-2 text-gray-600 text-sm">
                             {{-- TODO: list of popular packages --}}
                         </div>
                     </div>
@@ -25,7 +25,7 @@
 
                     <div class="w-full h-[0.2rem] my-2 rounded" style="background: var(--blue-jeans-2)"></div>
                     <div class="ml-12">
-                        <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                        <div class="mt-2 text-gray-600 text-sm">
 
                         </div>
                     </div>
@@ -39,7 +39,7 @@
 
                     <div class="w-full h-[0.2rem] my-2 rounded-lg" style="background: var(--light-sky-blue)"></div>
                     <div class="ml-12">
-                        <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                        <div class="mt-2 text-gray-600 text-sm">
                             {{-- {{$packages->count()}} --}}
 
                         </div>

@@ -3,7 +3,7 @@
         <div class="w-1/2 relative">
             @include('layouts.navigation')
 
-            <div class="relative flex items-top justify-center min-h-screen dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+            <div class="relative flex items-top justify-center min-h-screen sm:items-center py-4 sm:pt-0">
                 <div class="mx-auto sm:px-6 lg:px-8 w-full">
                     @auth
                         <x-dashboard />
@@ -80,7 +80,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="w-1/2 flex flex-col justify-center h-full">
+                                    <div class="w-1/2 flex flex-col justify-center h-full" style="transform: translateX(100px);">
                                         <svg viewBox="0 0 387 209" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                             <g clip-path="url(#clip0_1_2)">
                                             <path d="M35.5 100.458V95.5833L30.4375 90.1667H18.625C18.0037 90.1667 17.5 90.6517 17.5 91.25V110.75C17.5 111.348 18.0037 111.833 18.625 111.833H25.375" stroke="#747474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -145,7 +145,7 @@
                                         <h1 class="text-center">How does Snowball code look?</h1>
                                         <p class="text-center">💡 Here are some small examples for you to get a vibe of it.</p>
                                     </section>
-                                    <section class="mt-16 w-full">
+                                    <section class="mt-12 w-full">
                                         <div class="flex w-full justify-between">
                                             <div class="home-example">
                                                 <h1 class="text-left w-full">✌ Hello, world</h1>
@@ -153,7 +153,7 @@
                                                 <pre class="p-3 text-left w-full bg-white border mt-4 border-gray-400 rounded snowball-lang">
 <span class="k">use</span> Core::System;
 
-<span class="k">fn</span> <span class="ty">main</span>() {
+<span class="k">pub fn</span> <span class="ty">main</span>() <span class="k">i32</span> {
     System::<span class="ty">println</span>(<span class="s">"Hello, world!"</span>);
 }</pre>
                                             </div>
@@ -163,8 +163,8 @@
                                                 <pre class="p-3 text-left w-full bg-white border mt-4 border-gray-400 rounded snowball-lang">
 <span class="k">class</span> <span class="ty">Dog</span>: <span class="ty">Animal</span> {
     <span class="k">let mut</span> sound: <span class="k">String</span> = <span class="s">""</span>;
-<span class="k">pub</span>:
-    <span class="k">fn</span> <span class="ty">getSound</span>(): <span class="k">String</span> => <span class="mi">self</span>.sound;
+  <span class="k">pub</span>:
+    <span class="k">fn</span> <span class="ty">getSound</span>() <span class="k">String</span> => <span class="mi">self</span>.sound;
 }</pre>
                                             </div>
                                         </div>
