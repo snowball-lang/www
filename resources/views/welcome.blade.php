@@ -14,7 +14,7 @@
                                     <h1 class="w-full flex justify-center text-center mb-1">A fast and clean language.</h1>
                                     <p class="w-full text-center">Snowball allows you to write more in less code. It's simple syntax and tools it will allow you to write fast and efficient software.</p>
                                     <div class="flex mx-auto w-full items-center mt-10">
-                                        <x-nav-link class="ml-auto" href="/docs">Documentation</x-nav-link>
+                                        <x-nav-link class="ml-auto" href="https://snowball-lang.gitbook.io/docs/">Documentation</x-nav-link>
                                         <div class="py-1 px-3 mr-auto font-bold border-2 cursor-pointer border-black ml-10 rounded duration-150 hover:bg-black hover:text-white">
                                             Download
                                         </div>
