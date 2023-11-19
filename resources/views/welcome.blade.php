@@ -25,11 +25,11 @@
                                 <div class="flex w-full content-center h-screen relative justify-between">
                                     <div class="w-1/2 pr-10 flex flex-col justify-center h-full">
                                         <h2 class="w-full text-3xl font-semibold mb-3">How does it work? 🧐</h2>
-                                        <p class="w-full text-start mb-4">Snowball is just a compiler... But if you must know, what snowball does takes a look at your project and compiles all the files used inside that project into your specified output.</p>
-                                        <p class="w-full text-start">Although snowball has many high-level characteristics such as classes, polymorphism, etc... It is able to compile those into a native executable (if you want) with the same speed as a low level language like C.</p>
-                                        <div class="flex mt-10">
+                                        <p class="w-full text-start mb-4">Snowball is just a compiler... But if you must know, what snowball does, it compiles your project into your specified output.</p>
+                                        <p class="w-full text-start">Although snowball has many high-level characteristics such as classes, polymorphism, etc... It is able to compile those into a native executables with the speed we all crave.</p>
+                                        <div class="flex mt-12">
                                             <div class="mr-5">
-                                                <div class="bg-black text-white rounded w-fit py-1 px-3 mb-3">
+                                                <div class="bg-black text-white rounded w-fit py-1 px-3 mb-3" style="transform: rotate(-3deg);">
                                                     <h3 class="text-base text-white font-semibold">Getting started</h3>
                                                 </div>
                                                 <p class="text-sm text-start">As easy as executing one command and start to build the unimaginable.</p>
@@ -41,7 +41,7 @@
                                                 </a>
                                             </div>
                                             <div class="mr-5">
-                                                <div class="bg-black text-white rounded w-fit py-1 px-3 mb-3">
+                                                <div class="bg-black text-white rounded w-fit py-1 px-3 mb-3" style="transform: rotate(2deg);">
                                                     <h3 class="text-base text-white font-semibold">All in one CLI</h3>
                                                 </div>
                                                 <p class="text-sm text-start">A global CLI for compilations, package management and many more!</p>
@@ -55,7 +55,7 @@
                                         </div>
                                         <div class="flex mt-10">
                                             <div class="mr-5">
-                                                <div class="bg-black text-white rounded w-fit py-1 px-3 mb-3">
+                                                <div class="bg-black text-white rounded w-fit py-1 px-3 mb-3" style="transform: rotate(-2deg);">
                                                     <h3 class="text-base text-white font-semibold">Powerful performance</h3>
                                                 </div>
                                                 <p class="text-sm text-start">Designed to be fast and efficient, making it a great choice for large-scale projects.</p>
@@ -67,7 +67,7 @@
                                                 </a>
                                             </div>
                                             <div class="mr-5">
-                                                <div class="bg-black text-white rounded w-fit py-1 px-3 mb-3">
+                                                <div class="bg-black text-white rounded w-fit py-1 px-3 mb-3" style="transform: rotate(1deg);">
                                                     <h3 class="text-base text-white font-semibold">Flexible syntax</h3>
                                                 </div>
                                                 <p class="text-sm text-start">Flexible syntax makes it easy to write code that's both readable and powerful.</p>
@@ -140,7 +140,72 @@
                                 </div>
                             </div>
                             <div class="section">
-                                <div class="section text-center pt-24 h-screen w-full relative flex content-center flex-col items-center justify-center">
+                                <div class="section text-center pt-48 h-screen w-full relative flex content-center flex-col items-center">
+                                    <section class="text-center mb-16">
+                                        <h1 class="text-center">Get started with Snowball!</h1>
+                                        <p class="text-center">🚀 Get ready to start your next project with Snowball<br /> in only 3 steps</p>
+                                    </section>
+                                    <div class="flex">
+                                        <div class="flex flex-col items-center">
+                                            <div class="w-12 h-12 p-3 rounded-full border-4 border-black flex items-center justify-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                                                   <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                                </svg>
+                                            </div>
+                                            <div class="h-full w-[5px] bg-black"></div>
+                                        </div>
+                                        <div class="ml-10 flex flex-col items-start w-full">
+                                            <div class="font-bold">
+                                                Download snowball
+                                            </div>
+                                            <div>
+                                                The script will install snowball in your system automatically.
+                                            </div>
+                                            <pre class="mt-3 text-sm text-start border w-full rounded-md border-black py-2 px-4 shadow">$ curl -fsSL https://raw.githubusercontent.com/snowball-lang/snowball/dev/scripts/install.sh | sudo -E bash -s -- -y</pre>
+                                            <div class="h-12"></div>
+                                        </div>
+                                    </div>
+                                    <div class="flex">
+                                        <div class="flex flex-col items-center">
+                                            <div class="w-12 h-12 p-3 rounded-full border-4 border-black flex items-center justify-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+                                                </svg>
+                                            </div>
+                                            <div class="h-full w-[5px] bg-black"></div>
+                                        </div>
+                                        <div class="ml-10 w-full flex flex-col items-start">
+                                            <div class="font-bold">
+                                                Create a new project
+                                            </div>
+                                            <div>
+                                                Create a new project with the snowball cli.
+                                            </div>
+                                            <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-2 px-4 shadow">$ snowball new --name my_amazing_project</pre>
+                                            <div class="h-12"></div>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-full">
+                                        <div class="flex flex-col items-center">
+                                            <div class="w-12 h-12 p-3 rounded-full bg-black text-white flex items-center justify-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="ml-10 w-full flex flex-col items-start">
+                                            <div class="font-bold">
+                                                Run the project
+                                            </div>
+                                            <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-2 px-4 shadow">$ snowball run
+  Hello World! 🐱</pre>
+                                            <div class="h-10"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section">
+                                <div class="section text-center pt-32 h-screen w-full relative flex content-center flex-col items-center justify-center">
                                     <section class="text-center">
                                         <h1 class="text-center">How does Snowball code look?</h1>
                                         <p class="text-center">💡 Here are some small examples for you to get a vibe of it.</p>
@@ -151,27 +216,27 @@
                                                 <h1 class="text-left w-full">✌ Hello, world</h1>
                                                 <p class="pt-2 text-left">The classic Hello World program in Snowball is as simple as a call to System::println.</p>
                                                 <pre class="p-3 text-left w-full bg-white border mt-4 border-gray-400 rounded snowball-lang">
-<span class="k">use</span> Core::System;
+<span class="k">import</span> Core::System;
 
-<span class="k">pub fn</span> <span class="ty">main</span>() <span class="k">i32</span> {
+<span class="k">public func</span> <span class="ty">main</span>() <span class="k">i32</span> {
     System::<span class="ty">println</span>(<span class="s">"Hello, world!"</span>);
 }</pre>
                                             </div>
                                             <div class="home-example">
-                                                <h1 class="text-elft w-full">Object oriented</h1>
+                                                <h1 class="text-elft w-full">📦 Object oriented</h1>
                                                 <p class="pt-2 text-left">An example of a class declaration and how you can publicly declare members or functions.</p>
                                                 <pre class="p-3 text-left w-full bg-white border mt-4 border-gray-400 rounded snowball-lang">
-<span class="k">class</span> <span class="ty">Dog</span>: <span class="ty">Animal</span> {
+<span class="k">class</span> <span class="ty">Dog</span> <span class="k">extends</span> <span class="ty">Animal</span> {
     <span class="k">let mut</span> sound: <span class="k">String</span> = <span class="s">""</span>;
-  <span class="k">pub</span>:
-    <span class="k">fn</span> <span class="ty">getSound</span>() <span class="k">String</span> => <span class="mi">self</span>.sound;
+  <span class="k">public</span>:
+    <span class="k">func</span> <span class="ty">getSound</span>() <span class="k">String</span> => <span class="mi">self</span>.sound;
 }</pre>
                                             </div>
                                         </div>
                                         <div class="mt-5">
                                             <div class="home-example w-full flex">
                                                 <div class="relative">
-                                                    <h1 class="text-left w-full">Fibonacci sequence</h1>
+                                                    <h1 class="text-left w-full">😵‍💫 Fibonacci sequence</h1>
                                                     <p class="pt-2 text-left">Here's an example on how to do the fibonacci sequence in snowball. It's as fast as any other low-level programming language such as c++ or rust.</p>
                                                     <p class="pt-2 absolute bottom-0 left-0">Checkout the benchmarks <span><a href="#">here</a></span>.</p>
                                                 </div>
@@ -184,7 +249,7 @@
     <span class="k">return</span> <span class="ty">fib</span>(n-<span class="ty">1</span>) + <span class="ty">fib</span>(n-<span class="ty">2</span>);
 }</div>
                                         </div>
-                                        <div class="w-full p-2 px-5 my-6 border-black rounded-lg flex content-center justify-between">
+                                        <div class="w-full p-2 px-5 mt-4  border-black rounded-lg flex content-center justify-between">
                                             <h1 class="font-normal text-base m-0 p-0 flex items-center"><b class="mr-2">Not enough examples?</b> There are many more to explore!</h1>
                                             <div class="py-1 px-3 font-bold border-2 cursor-pointer text-white bg-black border-black ml-10 rounded duration-150 hover:bg-white hover:text-black">
                                                 Learn more
