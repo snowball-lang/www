@@ -9,15 +9,35 @@
                         <x-dashboard />
                     @else
                         <div id="fullpageScroll">
-                            <div class="section text-center h-screen w-full relative flex content-center flex-col items-center justify-center">
-                                <div class="flex content-center relative w-full h-screen flex-col justify-center">
-                                    <h1 class="w-full flex justify-center text-center mb-1">A fast and clean language.</h1>
-                                    <p class="w-full text-center">Snowball allows you to write more in less code. It's simple syntax and tools it will allow you to write fast and efficient software.</p>
-                                    <div class="flex mx-auto w-full items-center mt-10">
-                                        <x-nav-link class="ml-auto" href="https://snowball-lang.gitbook.io/docs/">Documentation</x-nav-link>
-                                        <div class="py-1 px-3 mr-auto font-bold border-2 cursor-pointer border-black ml-10 rounded duration-150 hover:bg-black hover:text-white">
-                                            Download
+                            <div class="section text-center h-screen w-full relative flex flex-col items-center justify-center">
+                                <div class="flex relative w-full h-screen items-center justify-center">
+                                    <div>
+                                        <h1 class="w-max text-start mb-1">A ******* nice language.</h1>
+                                        <p class="w-full text-start">Snowball allows you to write more in less code. It's simple syntax and tools it will allow you to write fast and efficient software.</p>
+                                        <div class="flex w-full items-center mt-2">
+                                            <x-nav-link class="ml-5" href="https://snowball-lang.gitbook.io/docs/">Documentation</x-nav-link>
+                                            <div class="py-1 px-3 mr-auto font-bold border-2 cursor-pointer border-black ml-10 rounded duration-150 hover:bg-black hover:text-white">
+                                                Download
+                                            </div>
                                         </div>
+                                    </div>
+                                    <div class="ml-10">
+                                        <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-2 px-4 shadow snowball-lang">$ <strong>snowball</strong> new --name examples
+$ <strong>cd </strong> ./example</pre>
+                                        <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-5 px-6 ml-10 shadow snowball-lang">
+<span class="s">@cfg</span>(tests)
+<span class="k">namespace</span> <span class="ty">tests</span> {
+  <span class="s">@test</span>(expect = <span class="ty">10</span>)
+  <span class="k">func</span> <span class="ty">add_to_ten</span>() <span class="k">i32</span> {
+    <span class="k">let</span> <span class="k">mut</span> a = <span class="ty">0</span>;
+    <span class="k">for</span> i <span class="k">in</span> <span class="ty">0</span>..<span class="ty">10</span> {
+        a += i;
+    }
+    <span class="k">return</span> a;
+  }
+}                                              </pre>
+<pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-2 px-4 shadow snowball-lang">$ <strong>snowball</strong> test
+  Testing <strong>pkg::tests::add_to_ten</strong> [(1/1) should pass] ... <span class="font-bold s">nice!</span></pre>
                                     </div>
                                 </div>
                             </div>
@@ -161,7 +181,7 @@
                                             <div>
                                                 The script will install snowball in your system automatically.
                                             </div>
-                                            <pre class="mt-3 text-sm text-start border w-full rounded-md border-black py-2 px-4 shadow">$ curl -fsSL https://raw.githubusercontent.com/snowball-lang/snowball/dev/scripts/install.sh | sudo -E bash -s -- -y</pre>
+                                            <pre class="mt-3 text-sm text-start border w-full rounded-md border-black py-2 px-4 shadow">$ <strong>curl</strong> -fsSL https://raw.githubusercontent.com/snowball-lang/snowball/dev/scripts/install.sh | sudo -E bash -s -- -y</pre>
                                             <div class="h-12"></div>
                                         </div>
                                     </div>
@@ -181,7 +201,7 @@
                                             <div>
                                                 Create a new project with the snowball cli.
                                             </div>
-                                            <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-2 px-4 shadow">$ snowball new --name my_amazing_project</pre>
+                                            <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-2 px-4 shadow">$ <strong>snowball</strong> new --name my_amazing_project</pre>
                                             <div class="h-12"></div>
                                         </div>
                                     </div>
@@ -197,7 +217,7 @@
                                             <div class="font-bold">
                                                 Run the project
                                             </div>
-                                            <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-2 px-4 shadow">$ snowball run
+                                            <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-2 px-4 shadow">$ <strong>snowball</strong> run
   Hello World! 🐱</pre>
                                             <div class="h-10"></div>
                                         </div>
@@ -205,7 +225,7 @@
                                 </div>
                             </div>
                             <div class="section">
-                                <div class="section text-center pt-32 h-screen w-full relative flex content-center flex-col items-center justify-center">
+                                <div class="section text-center pt-28  h-screen w-full relative flex content-center flex-col items-center justify-center">
                                     <section class="text-center">
                                         <h1 class="text-center">How does Snowball code look?</h1>
                                         <p class="text-center">💡 Here are some small examples for you to get a vibe of it.</p>
@@ -214,12 +234,12 @@
                                         <div class="flex w-full justify-between">
                                             <div class="home-example">
                                                 <h1 class="text-left w-full">✌ Hello, world</h1>
-                                                <p class="pt-2 text-left">The classic Hello World program in Snowball is as simple as a call to System::println.</p>
+                                                <p class="pt-2 text-left">The classic Hello World program in Snowball is as simple as a call to io::println.</p>
                                                 <pre class="p-3 text-left w-full bg-white border mt-4 border-gray-400 rounded snowball-lang">
-<span class="k">import</span> Core::System;
+<span class="k">import</span> std::io;
 
 <span class="k">public func</span> <span class="ty">main</span>() <span class="k">i32</span> {
-    System::<span class="ty">println</span>(<span class="s">"Hello, world!"</span>);
+    io::<span class="ty">println</span>(<span class="s">"Hello, world!"</span>);
 }</pre>
                                             </div>
                                             <div class="home-example">
@@ -227,7 +247,7 @@
                                                 <p class="pt-2 text-left">An example of a class declaration and how you can publicly declare members or functions.</p>
                                                 <pre class="p-3 text-left w-full bg-white border mt-4 border-gray-400 rounded snowball-lang">
 <span class="k">class</span> <span class="ty">Dog</span> <span class="k">extends</span> <span class="ty">Animal</span> {
-    <span class="k">let mut</span> sound: <span class="k">String</span> = <span class="s">""</span>;
+    <span class="k">let </span> sound: <span class="k">String</span> = <span class="s">"Woof"</span>;
   <span class="k">public</span>:
     <span class="k">func</span> <span class="ty">getSound</span>() <span class="k">String</span> => <span class="mi">self</span>.sound;
 }</pre>
@@ -241,7 +261,7 @@
                                                     <p class="pt-2 absolute bottom-0 left-0">Checkout the benchmarks <span><a href="#">here</a></span>.</p>
                                                 </div>
                                                 <pre class="p-3 text-left w-full bg-white border mt-4 border-gray-400 rounded snowball-lang min-w-[400px] ml-10">
-<span class="k">fn</span> <span class="ty">fib</span>(n: <span class="k">i64</span> = <span class="ty">47</span>) <span class="k">i64</span> {
+<span class="k">func</span> <span class="ty">fib</span>(n: <span class="k">i64</span> = <span class="ty">47</span>) <span class="k">i64</span> {
     <span class="k">if</span> n <= <span class="ty">1</span> {
         <span class="k">return</span> n;
     }
