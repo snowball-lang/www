@@ -21,7 +21,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="ml-10">
+                                    <div class="ml-20">
                                         <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-2 px-4 shadow snowball-lang">$ <strong>snowball</strong> new --name examples
 $ <strong>cd </strong> ./example</pre>
                                         <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-5 px-6 ml-10 shadow snowball-lang">
@@ -226,10 +226,6 @@ $ <strong>cd </strong> ./example</pre>
                             </div>
                             <div class="section">
                                 <div class="section text-center pt-28  h-screen w-full relative flex content-center flex-col items-center justify-center">
-                                    <section class="text-center">
-                                        <h1 class="text-center">How does Snowball code look?</h1>
-                                        <p class="text-center">💡 Here are some small examples for you to get a vibe of it.</p>
-                                    </section>
                                     <section class="mt-12 w-full">
                                         <div class="flex w-full justify-between">
                                             <div class="home-example">
@@ -247,9 +243,9 @@ $ <strong>cd </strong> ./example</pre>
                                                 <p class="pt-2 text-left">An example of a class declaration and how you can publicly declare members or functions.</p>
                                                 <pre class="p-3 text-left w-full bg-white border mt-4 border-gray-400 rounded snowball-lang">
 <span class="k">class</span> <span class="ty">Dog</span> <span class="k">extends</span> <span class="ty">Animal</span> {
-    <span class="k">let </span> sound: <span class="k">String</span> = <span class="s">"Woof"</span>;
-  <span class="k">public</span>:
-    <span class="k">func</span> <span class="ty">getSound</span>() <span class="k">String</span> => <span class="mi">self</span>.sound;
+   <span class="k">let</span> sound: <span class="k">String</span> = <span class="s">"Woof"</span>;
+ <span class="k">public</span>:
+   <span class="k">func</span> <span class="ty">getSound</span>() <span class="k">String</span> => <span class="mi">self</span>.sound;
 }</pre>
                                             </div>
                                         </div>
