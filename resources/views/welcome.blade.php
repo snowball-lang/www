@@ -23,7 +23,7 @@
                                     </div>
                                     <div class="ml-20">
                                         <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-2 px-4 shadow snowball-lang">$ <strong>snowball</strong> new --name examples
-$ <strong>cd </strong> ./example</pre>
+$ <strong>cd</strong> ./example</pre>
                                         <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-5 px-6 ml-10 shadow snowball-lang">
 <span class="s">@cfg</span>(tests)
 <span class="k">namespace</span> <span class="ty">tests</span> {
