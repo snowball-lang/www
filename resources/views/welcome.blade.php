@@ -16,26 +16,23 @@
                                         <p class="w-full text-start">Snowball allows you to write more in less code. It's simple syntax and tools it will allow you to write fast and efficient software.</p>
                                         <div class="flex w-full items-center mt-2">
                                             <x-nav-link class="ml-5" href="https://snowball-lang.gitbook.io/docs/">Documentation</x-nav-link>
-                                            <div class="py-1 px-3 mr-auto font-bold border-2 cursor-pointer border-black ml-10 rounded duration-150 hover:bg-black hover:text-white">
+                                            <a href="#get-started" class="py-1 px-3 mr-auto font-bold border-2 cursor-pointer border-black ml-10 rounded duration-150 hover:bg-black hover:text-white">
                                                 Download
-                                            </div>
+                                            </a>
                                         </div>
                                     </div>
                                     <div class="ml-20">
                                         <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-2 px-4 shadow snowball-lang">$ <strong>snowball</strong> new --name examples
 $ <strong>cd</strong> ./example</pre>
                                         <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-5 px-6 ml-10 shadow snowball-lang">
-<span class="s">@cfg</span>(tests)
-<span class="k">namespace</span> <span class="ty">tests</span> {
-  <span class="s">@test</span>(expect = <span class="ty">10</span>)
-  <span class="k">func</span> <span class="ty">add_to_ten</span>() <span class="k">i32</span> {
-    <span class="k">let</span> <span class="k">mut</span> a = <span class="ty">0</span>;
-    <span class="k">for</span> i <span class="k">in</span> <span class="ty">0</span>..<span class="ty">10</span> {
-        a += i;
-    }
-    <span class="k">return</span> a;
+<span class="s">@test</span>(expect = <span class="ty">10</span>)
+<span class="k">func</span> <span class="ty">add_to_ten</span>() <span class="k">i32</span> {
+  <span class="k">let</span> <span class="k">mut</span> a = <span class="ty">0</span>;
+  <span class="k">for</span> i <span class="k">in</span> <span class="ty">0</span>..<span class="ty">10</span> {
+      a += i;
   }
-}                                              </pre>
+  <span class="k">return</span> a;
+}                                               </pre>
 <pre class="mt-3 text-start text-sm border w-full rounded-md border-black py-2 px-4 shadow snowball-lang">$ <strong>snowball</strong> test
   Testing <strong>pkg::tests::add_to_ten</strong> [(1/1) should pass] ... <span class="font-bold s">nice!</span></pre>
                                     </div>
@@ -159,7 +156,7 @@ $ <strong>cd</strong> ./example</pre>
                                     </div>
                                 </div>
                             </div>
-                            <div class="section">
+                            <section id="get-started" class="section">
                                 <div class="section text-center pt-48 h-screen w-full relative flex content-center flex-col items-center">
                                     <section class="text-center mb-16">
                                         <h1 class="text-center">Get started with Snowball!</h1>
@@ -223,7 +220,7 @@ $ <strong>cd</strong> ./example</pre>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </section>
                             <div class="section">
                                 <div class="section text-center pt-28  h-screen w-full relative flex content-center flex-col items-center justify-center">
                                     <section class="mt-12 w-full">
